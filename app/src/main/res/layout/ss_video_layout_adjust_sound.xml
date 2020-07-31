@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/qb_px_31"
+    android:layout_height="@dimen/qb_px_115"
+    android:id="@+id/layout_adjust_sound"
+    android:background="@drawable/ss_video_sound_seek_background"
+    android:visibility="invisible">
+
+    <com.app.player.view.VolumeSeekBar
+        android:id="@+id/adjust_sound_seekbar"
+        android:layout_width="@dimen/qb_px_10"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/qb_px_7"
+        android:layout_marginTop="@dimen/qb_px_12"
+        android:max="100000"
+        android:maxHeight="@dimen/qb_px_4"
+        android:maxWidth="@dimen/qb_px_4"
+        android:minHeight="@dimen/qb_px_4"
+        android:minWidth="@dimen/qb_px_4"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:progressDrawable="@drawable/ss_video_sound_adjust_bar_progress"
+        android:thumb="@drawable/ss_video_thumb_cricle"
+        android:thumbOffset="0dp" />
+
+</RelativeLayout>

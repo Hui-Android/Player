@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/reload_layout"
+        layout="@layout/player_activity_reload_layout"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/player_loading_layout"
+        layout="@layout/player_activity_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/video_tilte_layout" />
+
+    <!--底部seekBar 之类的-->
+    <include
+        layout="@layout/ss_video_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_60"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <!--分辨率选择-->
+    <com.app.player.view.RateView
+        android:id="@+id/rate_view"
+        android:layout_width="@dimen/qb_px_83"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/qb_px_69"
+        android:layout_marginRight="@dimen/qb_px_30"
+        android:visibility="gone" />
+    <!--右侧功能-->
+    <com.app.player.view.VideoPlayerRightOptionView
+        android:id="@+id/right_option_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+    <!--音量-->
+    <include
+        layout="@layout/ss_video_layout_adjust_sound"
+        android:layout_width="@dimen/qb_px_33"
+        android:layout_height="@dimen/qb_px_115"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/qb_px_69"
+        android:layout_marginRight="@dimen/qb_px_16"
+        android:visibility="gone" />
+
+    <!--播放/暂停按钮-->
+    <ImageView
+        android:id="@+id/center_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/qb_px_60"
+        android:layout_marginTop="@dimen/qb_px_50"
+        android:src="@drawable/ss_video_center_play"
+        android:visibility="gone" />
+
+    <!--底部提示语-->
+    <TextView
+        android:id="@+id/bottom_tv_buffering"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/qb_px_42"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/qb_px_71"
+        android:background="@color/black_translucence"
+        android:gravity="center"
+        android:paddingLeft="@dimen/qb_px_12"
+        android:paddingRight="@dimen/qb_px_12"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/qb_px_16"
+        android:visibility="gone" />
+
+</RelativeLayout>

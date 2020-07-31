@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/bge9e9e9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_45"
+        android:layout_marginLeft="@dimen/qb_px_14"
+        android:layout_marginRight="@dimen/qb_px_14"
+        android:layout_marginTop="@dimen/qb_px_10"
+        android:background="@drawable/white_button"
+        android:id="@+id/single"
+        android:text="@string/single"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/qb_px_18"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_45"
+        android:layout_marginLeft="@dimen/qb_px_14"
+        android:layout_marginRight="@dimen/qb_px_14"
+        android:layout_marginTop="@dimen/qb_px_10"
+        android:background="@drawable/blue_button"
+        android:id="@+id/list"
+        android:text="@string/list"
+        android:textColor="@color/white"
+        android:textSize="@dimen/qb_px_18"/>
+
+    <Button
+        android:layout_marginBottom="@dimen/qb_px_10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_45"
+        android:layout_marginLeft="@dimen/qb_px_14"
+        android:layout_marginRight="@dimen/qb_px_14"
+        android:background="@drawable/green_button"
+        android:id="@+id/random"
+        android:layout_marginTop="@dimen/qb_px_10"
+        android:text="@string/random"
+        android:textColor="@color/white"
+        android:textSize="@dimen/qb_px_18" />
+
+</LinearLayout>

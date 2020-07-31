@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/qb_px_5"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/play_mode"
+        android:layout_width="@dimen/qb_px_80"
+        android:layout_height="wrap_content"
+        android:text="播放模式"
+        android:textColor="#1296db"
+        android:textSize="@dimen/qb_px_16"
+        android:layout_marginTop="@dimen/qb_px_5"
+        android:layout_marginBottom="@dimen/qb_px_5"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_1"
+        android:background="@color/litter_gray"/>
+
+    <TextView
+        android:id="@+id/music_list"
+        android:layout_width="@dimen/qb_px_80"
+        android:layout_height="wrap_content"
+        android:text="播放列表"
+        android:textColor="#1296db"
+        android:textSize="@dimen/qb_px_16"
+        android:layout_marginTop="@dimen/qb_px_5"
+        android:layout_marginBottom="@dimen/qb_px_5"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+</LinearLayout>

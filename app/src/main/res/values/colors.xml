@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black_translucence">#7f000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="bg_title_color">#5e88ff</color>
+    <color name="color_4d000000">#4d000000</color>
+    <color name="litter_gray">#EFEEF3</color>
+    <color name="video_rate_text_color">#5e88ff</color>
+    <color name="bg_backup_color">#5e88ff</color>
+    <color name="new_title_bg">#f8f9fb</color>
+    <color name="background_grey">#f8f9fb</color>
+    <color name="title_main_text_color">#001026</color>
+    <color name="blue">#0099FF</color>
+    <color name="btn_bg_green">#08BA06</color>
+    <color name="bge9e9e9">#e9e9e9</color>
+</resources>

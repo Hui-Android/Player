@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutAnimation="@anim/list_anim_layout"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/des_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/qb_px_50"
+        android:layout_marginBottom="@dimen/qb_px_50"
+        android:textSize="@dimen/qb_px_20"
+        android:text="Android 音视频播放"
+        android:textColor="#80000000"/>
+
+    <Button
+        android:id="@+id/audio_native_btn"
+        android:layout_below="@id/des_tv"
+        android:layout_width="@dimen/qb_px_180"
+        android:layout_height="@dimen/qb_px_50"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/qb_px_40"
+        android:textStyle="bold"
+        android:text="选择本地音频"
+        android:textColor="@color/white"
+        android:background="@drawable/blue_button"/>
+
+    <Button
+        android:id="@+id/video_native_btn"
+        android:layout_width="@dimen/qb_px_180"
+        android:layout_height="@dimen/qb_px_50"
+        android:layout_below="@id/audio_native_btn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/qb_px_30"
+        android:textStyle="bold"
+        android:text="选择本地视频"
+        android:textColor="@color/white"
+        android:background="@drawable/blue_button" />
+
+    <Button
+        android:id="@+id/audio_btn"
+        android:layout_width="@dimen/qb_px_180"
+        android:layout_height="@dimen/qb_px_50"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:text="AudioPlay"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/green_button"/>
+
+    <Button
+        android:id="@+id/video_btn"
+        android:layout_width="@dimen/qb_px_180"
+        android:layout_height="@dimen/qb_px_50"
+        android:layout_below="@id/audio_btn"
+        android:layout_marginTop="@dimen/qb_px_30"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:text="VideoPlay"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/green_button"/>
+
+</RelativeLayout>

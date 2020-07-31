@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.app.player.view.LoadingRingView
+        android:id="@+id/ldrv_loading"
+        android:layout_width="@dimen/qb_px_39"
+        android:layout_height="@dimen/qb_px_39" />
+
+    <TextView
+        android:id="@+id/tv_loading_ring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qb_px_8"
+        android:gravity="center"
+        android:text="加载中..."
+        android:textColor="#9CA0A9"
+        android:textSize="@dimen/qb_px_17" />
+</merge>

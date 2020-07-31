@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/iv_loading_ring"
+        android:layout_width="@dimen/qb_px_19"
+        android:layout_height="@dimen/qb_px_14"
+        android:layout_gravity="center"
+        android:src="@drawable/common_loading_cloud" />
+</merge>

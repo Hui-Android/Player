@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Player</string>
+
+    <string name="ss_ctrl_buffering">正在缓冲···</string>
+    <string name="audio_play_get_resource_error">获取音频资源失败，无法播放！</string>
+    <string name="is_the_first_music">已经是第一首了</string>
+    <string name="is_the_last_music">已经是最后一首了</string>
+    <string name="single">单曲循环</string>
+    <string name="list">列表循环</string>
+    <string name="random">随机播放</string>
+    <string name="no_music">没有找到相关媒体！</string>
+    <string name="loading_failed">载入音乐失败，点击播放重试！</string>
+
+    <string name="ss_video_rate_h">高清</string>
+    <string name="ss_video_rate_m">标清</string>
+    <string name="ss_video_rate_l">流畅</string>
+
+    <string name="download">下载</string>
+    <string name="delete">删除</string>
+    <string name="share">分享</string>
+
+    <string name="default_time_progress">00:00:00</string>
+    <string name="default_time_duration">00:00:00</string>
+    <string name="video_changing_rate">视频正切换到%s，请稍候...</string>
+    <string name="video_changed_rate">视频已切换到%s</string>
+    <string name="video_loading_buffer">视频加载中，请稍候...</string>
+    <string name="reload_touch_to_reload">播放失败，请轻触屏幕重试~</string>
+    <string name="video_reload">刷新</string>
+</resources>
